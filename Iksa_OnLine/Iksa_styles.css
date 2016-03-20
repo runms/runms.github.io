@@ -1,0 +1,109 @@
+body{
+    font-family: Georgia, Arial, San-Serif;
+    font-size: 100%;
+}
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-size: 13px;
+    line-height: 1.3em;
+}
+/* HEADER */
+.header {
+    padding: 10px 0;
+    background-color: yellowgreen;
+    font-family: Georgia;
+}
+
+.header h1,
+.header h2 {
+    color: greenyellow;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* NAVIGATION */
+.page-navigation {
+    background-color: #eb630d;
+    border-color: #9d9d9d;
+    min-height: 64px;
+}
+.nav_logo {
+    display: inline-block;
+    float: left;
+}
+
+.page-navigation ul {
+    float: right;
+    display: inline-block;
+}
+
+.page-navigation li {
+    display: inline-block;
+}
+
+.page-navigation li a {
+    display: block;
+    padding: 0 20px;
+    color: #e1e1e1;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.page-navigation li a:hover {
+    color: #eb630d;
+    background-color: #e1e1e1;
+}
+
+/* NAVIGATION SERVICIES */
+
+.services {
+    background-color: #ffffff;
+    min-height: 64px;
+    text-align: center;
+}
+
+.services li {
+    display: inline-block;
+}
+
+.services li a {
+    display: block;
+    padding: 0 20px;
+    color: #aaaaaa;
+    text-transform: uppercase;
+    line-height: 4em;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.services li a:hover {
+    color: #eb630d;
+    background-color: #d1d1d1;
+}
+
+/* MAIN */
+
+.slaider {
+    width: 960px;
+    height: 628px;
+    background-image: url(main_bg.png);
+}
+
+.about-us {
+    background-color: #c4e1ff;
+}
