@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        /* Task 3 */
+        function calcEnterdNumbers() {
+            var numbers=[];
+            var numbersSum = 0;
+            while(true) {
+                var number = +prompt('Enter number');
+                if (number || number === 0) {
+                    numbers.push(number);
+                } else {
+                    break
+                }
+            } alert (numbers);
+            for (var i in numbers){
+                numbersSum += numbers[i];
+            } alert(numbersSum);
+
+        }
+        calcEnterdNumbers()
+    </script>
+</head>
+<body>
+
+</body>
+</html>
