@@ -1,0 +1,6 @@
+article p:first-child {
+    text-transform: uppercase;
+}
+article p:last-child {
+    color: #999;
+}

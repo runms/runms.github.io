@@ -1,0 +1,487 @@
+
+/* Part 1 */
+
+body {
+    margin: 0;
+}
+.menu {
+    width: 75%;
+    min-width: 725px;
+    margin: 30px auto -5px auto;
+}
+
+.company_logo {
+    color: #EC9140;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 26px;
+    display: inline-block;
+    float: left;
+}
+
+.company_logo_name {
+    text-transform: uppercase;
+    color: #075698;
+    font-weight: bolder;
+}
+
+.menu_list {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    margin: -6px 0 0 0;
+}
+
+.menu_button {
+    display: inline-block;
+    font-family:"Trebuchet MS", sans-serif;
+    font-size: 16px;
+    padding: 10px 10px 35px 10px;
+    margin: 30px auto auto auto;
+    color: #BBBBBB;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+}
+
+.menu .menu_button:hover {
+    color: #075698;
+    border-bottom: 3px solid #075698;
+}
+
+.banner1 {
+    clear: both;
+    background: url('banner1_project1.jpg'), no-repeat;
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.banner1_content {
+    width: 75%;
+    min-width: 725px;
+    margin: auto;
+    padding: 90px 0 110px 0;
+    text-align: center;
+
+}
+.banner1_first_row {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    margin-top: 0;
+}
+
+.banner1_second_row {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.banner1_third_row {
+    font: italic 20px Calibri;
+    padding-bottom: 55px;
+}
+
+.button_button_name {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+.button_button_name:hover {
+    background-color: rgba(191, 229, 255, 0.3);
+}
+
+/* Part 2 */
+
+.project1_part2 {
+    text-align: center;
+    background-color: white;
+}
+.part2_services {
+    margin: 70px auto 60px auto;
+    min-width: 725px;
+}
+.part2_header {
+    font: 24px "Trebuchet MS";
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.part2_buttons_single {
+    display: inline-block;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 25px;
+}
+
+.name_of-service {
+    text-transform: uppercase;
+    color: #3070a8;
+    font: 24px "Trebuchet MS";
+    margin: 30px auto;
+}
+
+.service_description {
+    color: #9d9d9d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.banner2 {
+    background: url("banner_part2.jpg");
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner2_content {
+    width: 75%;
+    min-width: 725px;
+    margin: auto;
+    padding: 90px 0 80px 0;
+    text-align: left;
+    line-height: 2.0;
+
+}
+
+.banner2_first_row {
+    color: #d1732a;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.banner2_second_row {
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+.banner2_list {
+    color: #9d9d9d;
+    font-size: 14px;
+    padding-left: 20px;
+    max-width: 650px;
+}
+
+.banner2_list li {
+    margin-bottom: 1em;
+}
+
+/* Part 3 */
+
+.project1_part3 {
+    margin: 70px auto;
+    text-align: center;
+    width: 890px;
+}
+
+.part3_title {
+    text-align: center;
+    color: #35495A;
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    position: relative;
+}
+
+.offer_main {
+    margin-top: 50px;
+    width: 290px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS';
+    font-size: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.offer_standart {
+    background-color: #37C2D3;
+    text-align: center;
+    color: white;
+    border: 2px solid #EAECEE;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS';
+    font-size: 24px;
+}
+
+.offer_best_value {
+    margin: 0 -4px 0 -4px;
+    background-color: #EE8129;
+    text-align: center;
+    border: 4px solid #EE8129;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS';
+    font-size: 24px;
+    box-shadow: 0 0 5px #ffcc0e;
+    position: relative;
+    z-index: 3;
+}
+
+.offer_ultimate {
+    background-color: #1CB79A;
+    text-align: center;
+    color: white;
+    border: 2px solid #EAECEE;
+    border-left: none;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS';
+    font-size: 24px;
+}
+
+.offer_title {
+    margin: 19px 0;
+}
+
+.offer_icon {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    color: #35495A;
+    font-size: 14px;
+    padding: 15px 0;
+}
+
+.icon_head {
+    font-size: 24px;
+    margin: 0;
+}
+
+.offer_price {
+    font-size: 72px;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.offer_button {
+    width: 88%;
+    height: 25px;
+    background-color: #3371A6;
+    margin: 20px auto 5px auto;
+    padding: 5px 0;
+    border-radius: 5px;
+    border-bottom: 2px solid #16436A;
+    color: white;
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.offer_button_best {
+    width: 88%;
+    height: 25px;
+    background-color: #EE8129;
+    margin: 20px auto;
+    padding: 5px 0;
+    border-radius: 5px;
+    border-bottom: 2px solid brown;
+    color: white;
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.offer_button_link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.offer_button:hover {
+    background-color: #35495A;
+}
+
+.offer_button_best:hover {
+    background-color: #ff7049;
+}
+
+.offer_list {
+    margin: 0 15px;
+    padding: 0;
+}
+
+.offer_list li {
+    list-style-type: none;
+    background-color: white;
+    text-align: left;
+    font-size: 15px;
+    color: #888C94;
+    border-bottom: 1px solid #ffffff;
+    padding: 8px 0 5px 56px;
+
+}
+
+.offer_list li:nth-child(odd) {
+    background-color: #EDF5FD;
+}
+
+.offer_list li:nth-child(even) {
+    background-color: #F5F5F6;
+}
+
+sup {
+    vertical-align: 2.7em;
+    font-size: 16px;
+}
+
+sub {
+    vertical-align: -0.3em;
+    font-size: 16px;
+}
+
+.offer_list li:before {
+    content: '\2714';
+    color: green;
+    position: absolute;
+    left: 40px;
+}
+
+/* Part 4 */
+
+.project1_part4 {
+    background-image: url('background_feedback.png');
+}
+
+.feedback_header {
+    font-family: 'Trebuchet MS';
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #3170A8;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.what {
+    color: #EE8129;
+}
+
+.feedback {
+    text-align: center;
+}
+
+.feedback_comments {
+    display: inline-block;
+    margin: 10px 10px 40px 10px;
+}
+
+.comments_image {
+    width: 99px;
+    height: 98px;
+
+}
+
+.stacyia {
+    background: url("woman_feedback.png");
+}
+
+.david {
+    background: url("man_feedback.png");
+
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin: -65px auto auto 99px;
+    border: 15px solid;
+    border-color: transparent #fff transparent transparent;
+}
+
+.customer_comments {
+    max-width: 270px;
+    height: 98px;
+    margin: -98px auto auto 129px;
+    background-color: #fff;
+    color: #7E7E7E;
+    position: relative;
+    font-family: 'Trebuchet MS';
+    font-size: 10px;
+    overflow: hidden;
+
+}
+
+.feedback_comments_header {
+    color: #6991B9;
+    font-style: italic;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: dotted #9F9F9F;
+    text-align: left;
+}
+
+.feedback_comments_say {
+    color: #9F9F9F;
+    padding: 10px;
+    text-align: left;
+}
+
+.customer {
+    float: right;
+}
+
+ /* Part 5 */
+
+.part5_contacts {
+    width: 50%;
+    min-width: 415px;
+    color: #666666;
+    padding: 40px 0 35px 230px;
+    box-sizing: border-box;
+    font: 16px "Trebuchet MS";
+}
+
+.part5_location:before {
+    content: url("icon_map.png");
+    position: absolute;
+    left: 190px;
+}
+
+.part5_number:before {
+    content: url("icon_phone.png");
+    position: absolute;
+    left: 190px;
+}
+
+.part5_email:before {
+    content: url("icon_email.png");
+    position: absolute;
+    left: 190px;
+    padding-top: 7px;
+}
+
+.part5_social_icons {
+    margin: 40px auto auto -75px;
+}
+
+.part5_social_icons img {
+    padding-left: 25px;
+}
+
+.project1_footer {
+    background-color: #3070a8;
+    color: #fff;
+    text-align: center;
+    font: 16px "Trebuchet MS";
+}
+
+.project1_footer p {
+    margin: 0;
+    padding: 30px 0;
+}
+
+.footer_text_bold {
+    font-weight: bold;
+}
+
+.footer_text_black {
+    color: #000000;
+}

@@ -1,0 +1,86 @@
+.menu {
+    width: 810px;
+    margin: auto auto -26px auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.company_logo {
+    color: #EC9140;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.company_logo_name {
+    text-transform: uppercase;
+    color: #075698;
+    font-weight: bolder;
+}
+
+.menu_list {
+    list-style-type: none;
+    margin-top: 4px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.menu_button {
+    display: inline-block;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    padding: 15px 5px;
+    color: #BBBBBB;
+    text-transform: uppercase;
+}
+
+.menu .menu_button:hover {
+    color: #075698;
+    border-bottom: 2px solid #075698;
+}
+
+.banner1 {
+    background: url('banner1_project1.jpg'), no-repeat;
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.banner1_content {
+    width: 75%;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+
+}
+.banner1_first_row {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+}
+
+.banner1_second_row {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.banner1_third_row {
+    font: italic 20px Calibri;
+    padding-bottom: 45px;
+}
+
+.button_button_name {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+.button_button_name:hover {
+    padding: 13px 35px;
+    background-color: rgba(191, 229, 255, 0.3);
+    font-size: 20px;
+}

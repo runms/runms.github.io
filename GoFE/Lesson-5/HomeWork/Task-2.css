@@ -1,0 +1,65 @@
+.main {
+    background-color: darkorange;
+    width: 200px;
+    text-align: center;
+    border: 3px solid darkorange;
+    color: white;
+    border-radius: 3px;
+    font: menu;
+    margin: -3px auto;
+}
+.white {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    color: dimgrey;
+    font-size: 14px;
+}
+.buttom {
+    width: 130px;
+    height: 15px;
+    background-color: darkorange;
+    margin: 10px auto;
+    padding: 5px 0;
+    position: relative;
+    top: 1px;
+    border-radius: 7px;
+    border-bottom: 2px solid brown;
+    color: white;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    background-color: white;
+    text-align: left;
+    padding-left: 35px;
+}
+li:nth-child(odd) {
+    background-color: lightcyan;
+}
+li:nth-child(even) {
+    background-color: aliceblue;
+}
+
+sup {
+    vertical-align: 1.5em;
+    font-size: 10px;
+}
+sub {
+    vertical-align: -1em;
+    font-size: 10px;
+}
+.price {
+    font-size: 24px;
+    margin: -3px auto 9px auto;
+}
+li:before {
+    content: '\2714';
+    color: green;
+    position: absolute;
+    left: 25px;
+}

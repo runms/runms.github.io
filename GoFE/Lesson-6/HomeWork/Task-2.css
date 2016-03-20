@@ -1,0 +1,82 @@
+.background {
+    background-image: url('background_feedback.png');
+}
+
+.feedback_header {
+    font-family: 'Trebuchet MS';
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #3170A8;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.what {
+    color: #EE8129;
+}
+
+.feedback {
+    text-align: center;
+}
+
+.feedback_comments {
+    display: inline-block;
+    margin: 10px 10px 40px 10px;
+}
+
+.comments_image {
+    width: 99px;
+    height: 98px;
+
+}
+
+.stacyia {
+    background: url("woman_feedback.png");
+}
+
+.david {
+    background: url("man_feedback.png");
+
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin: -65px auto auto 99px;
+    border: 15px solid;
+    border-color: transparent #fff transparent transparent;
+}
+
+.customer_comments {
+    max-width: 270px;
+    height: 98px;
+    margin: -98px auto auto 129px;
+    background-color: #fff;
+    color: #7E7E7E;
+    position: relative;
+    font-family: 'Trebuchet MS';
+    font-size: 10px;
+    overflow: hidden;
+
+}
+
+.feedback_comments_header {
+    color: #6991B9;
+    font-style: italic;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: dotted #9F9F9F;
+    text-align: left;
+}
+
+.feedback_comments_say {
+    color: #9F9F9F;
+    padding: 10px;
+    text-align: left;
+}
+
+.customer {
+    float: right;
+}

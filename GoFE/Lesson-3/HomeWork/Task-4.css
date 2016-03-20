@@ -1,0 +1,16 @@
+a:visited {
+    color: blue
+}
+a[href*="ya"] {
+    color: #f70;
+}
+a[href*="http://maps.yandex.ru"]:after {
+    margin-left: 6px;
+    content: "\E287B2";
+    text-decoration: none;
+    display: inline-block;
+    transform: rotate(180deg);
+}
+a[href*="google"] {
+    color: grey;
+}

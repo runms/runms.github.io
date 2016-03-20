@@ -1,0 +1,56 @@
+.part5_contacts {
+    width: 50%;
+    min-width: 415px;
+    color: #666666;
+    border: 1px solid red;
+    padding: 40px 0 35px 230px;
+    box-sizing: border-box;
+    font: 16px "Trebuchet MS";
+}
+
+.part5_location:before {
+    content: url("icon_map.png");
+    position: absolute;
+    left: 190px;
+}
+
+.part5_number:before {
+    content: url("icon_phone.png");
+    position: absolute;
+    left: 190px;
+}
+
+.part5_email:before {
+    content: url("icon_email.png");
+    position: absolute;
+    left: 190px;
+    padding-top: 7px;
+}
+
+.part5_social_icons {
+    margin: 40px auto auto -75px;
+}
+
+.part5_social_icons img {
+    padding-left: 25px;
+}
+
+.project1_footer {
+    background-color: #3070a8;
+    color: #fff;
+    text-align: center;
+    font: 16px "Trebuchet MS";
+}
+
+.project1_footer p {
+    margin: 0;
+    padding: 30px 0;
+}
+
+.footer_text_bold {
+    font-weight: bold;
+}
+
+.footer_text_black {
+    color: #000000;
+}

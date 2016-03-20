@@ -1,0 +1,16 @@
+.item {
+    list-style-type: none;
+    color: blueviolet;
+    display: inline-block;
+    padding: 6px 10px;
+    font-family: fantasy;
+}
+.number {
+    border: 1px solid dimgrey;
+    border-radius: 25%;
+
+}
+.number:hover {
+    color: #f2f2de;
+    background-color: blueviolet;
+}

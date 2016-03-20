@@ -1,0 +1,105 @@
+@media (max-width: 999px) and (min-width: 780px) {
+    .site_header {
+        width: 780px;
+    }
+
+    .banner1_invite {
+        width: 780px;
+    }
+
+    .banner1_invite_text {
+        width: 50%;
+        font-size: 25px;
+    }
+
+    .banner1_form_box {
+        width: 280px;
+    }
+
+    .banner2_about_box {
+        width: 780px;
+    }
+
+    .banner2_history {
+        width: 50%;
+    }
+
+    .good_point_header {
+        width: 780px;
+    }
+
+    .good_point_all_reasons {
+        width: 780px;
+    }
+
+    .good_point_reason {
+        display: block;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .good_point_img {
+        float: left;
+        padding-right: 20px;
+    }
+
+    .quality_programs {
+        margin: 0;
+    }
+
+    .good_point_text {
+        width: 790px;
+        height: 160px;
+        text-align: left;
+        position: relative;
+    }
+
+    .good_point_button {
+        margin: 0;
+    }
+
+    .good_point_button a {
+        position: absolute;
+        bottom: -15px;
+    }
+
+    .feedback {
+        width: 780px;
+    }
+
+    .feedback_header {
+        font-size: 20px;
+    }
+
+    .feedback_text {
+        width: 560px;
+        text-align: justify;
+    }
+
+    .feedback_photo {
+        right: 0;
+    }
+
+    .get_start_box {
+        width: 780px;
+    }
+
+    .get_start_button {
+        font-size: 20px;
+        width: 450px;
+        padding: 10px 20px;
+    }
+
+    .get_start_button_arrow {
+        padding: 8px;
+    }
+
+    .site_footer {
+        width: 780px;
+    }
+
+    .footer_connect {
+        top: 60px;
+    }
+
+}

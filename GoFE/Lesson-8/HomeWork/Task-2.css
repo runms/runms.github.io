@@ -1,0 +1,41 @@
+.form {
+    background: linear-gradient(to top, #fff591, #FFCD5D);
+    width: auto;
+    max-width: 600px;
+    height: 65px;
+    margin-right: 20px;
+    padding-right: 11px;
+    position: relative;
+}
+
+.main {
+    padding: 5px;
+}
+
+.example {
+    margin: 0;
+    padding: 0 0 15px 5px;
+}
+
+.request {
+    width: 81%;
+    height: 25px;
+}
+
+.search {
+    width: 17%;
+    height: 31px;
+    font-weight: bold;
+    float: right;
+}
+
+.form:after {
+    content: 'h';
+    font-size: 0;
+    border: solid;
+    border-width: 32.5px 20px;
+    border-color: transparent transparent transparent #FFCD5D;
+    position: absolute;
+    right: -40px;
+    top: 0;
+}

@@ -1,0 +1,40 @@
+.main {
+    background-color: orange;
+    width: 170px;
+    text-align: center;
+    border: 2px solid orange;
+    color: white
+}
+.white {
+    background-color: grey;
+    color: black;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+.buttom {
+    width: 130px;
+    height: 15px;
+    background-color: red;
+    margin: 10px auto;
+    padding: 5px 0;
+    position: relative;
+    top: -10px;
+    border-radius: 7px;
+    border-bottom: 2px solid brown;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    background-color: white;
+}
+li:nth-child(even) {
+    background-color: blue;
+}
+
+sup {
+    vertical-align: -1.2em;
+}

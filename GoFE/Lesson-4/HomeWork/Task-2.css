@@ -1,0 +1,23 @@
+.line {
+    background-color: blueviolet;
+}
+.menu {
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+.buttom {
+    color: white;
+    text-align: center;
+    font-family: Impact;
+    font-size: 20px;
+    padding: 9px 15px;
+    float: left;
+}
+.more {
+    float: right;
+}
+.buttom:hover {
+    color: #999999;
+    background-color: #ddebf7;
+}

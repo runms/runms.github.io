@@ -1,0 +1,47 @@
+.line {
+    background-color: dodgerblue;
+}
+.menu {
+    width: 900px;
+    margin: auto;
+    display: table;
+}
+.buttom {
+    display: table-cell;
+    color: white;
+    text-align: center;
+    font-family: Impact;
+    padding: 5px 0;
+}
+.menu div:hover {
+    color: #999999;
+    background-color: #ddebf7;
+}
+.menu2level {
+    position: absolute;
+    top: 37px;
+    left: 7px;
+    height: 31px;
+    width: 900px;
+    background-color: #ddebf7;
+    color: #999999;
+    display: none;
+}
+ul {
+    list-style-type: none;
+    margin-top: 4px;
+    float: left;
+}
+li {
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    margin-left: 0;
+    padding: 0 5px;
+}
+.menu div:hover > .menu2level {
+    display: block;
+}
+li:hover {
+    color: dodgerblue;
+}
