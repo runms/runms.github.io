@@ -1,0 +1,579 @@
+body {
+    font: 14px "ProximaNova", sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.section {
+    width: 1280px;
+    height: 768px;
+    position: relative;
+    vertical-align: top;
+    display: block;
+    margin: 0 auto;
+    /*background-color: #dfdfdf;*/
+    text-align: center;
+}
+
+.mainSlide_header {
+    width: 1022px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+}
+
+.mainSlide_header__logo {
+    float: left;
+    font: 20px "ProximaNova", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.mainSlide_header__logo p {
+    margin: 0;
+    padding: 13px 0;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.mainSlide_header__logo img {
+    position: relative;
+    top: 8px;
+}
+
+.mainSlide_header__buttons {
+    float: right;
+}
+
+.mainSlide_header__buttons a {
+    color: #464646;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 18px 0;
+    margin: 0 0 0 90px;
+    outline: 0;
+}
+
+.mainSlide_header__buttons a:hover {
+    opacity: 0.8;
+}
+
+a.button_LogIn {
+    padding: 18px 40px 16px 40px;
+    border: 3px solid #f54e2f;
+    box-sizing: border-box;
+    margin-left: 60px;
+}
+
+.mainSlide_front__text {
+    font: 60px "ProximaNova", sans-serif;
+    font-weight: bold;
+    color: #f54e2f;
+    text-transform: uppercase;
+    margin: 200px auto 0 auto;
+}
+
+.mainSlide_front__text span {
+    font-size: 40px;
+}
+
+.button_flippingDown {
+    color: #464646;
+    line-height: 16px;
+    text-decoration: none;
+    position: absolute;
+    top: 715px;
+    left: 592px;
+}
+
+.button_flippingDown p {
+    font-size: 13px;
+    color: #464646;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.button_flippingDown img {
+    opacity: 0.7;
+    background-color: #c1c1c1;
+}
+
+.flipDown_2 {
+    top: 710px;
+}
+
+.button_flippingDown:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.videoSlide {
+    background-color: rgba(214, 214, 214, 0.97);
+    overflow: hidden;
+}
+.videoSlide_player {
+    overflow: hidden;
+    height: 770px;
+}
+
+.howItWork {
+    overflow: hidden;
+    position: relative;
+}
+
+.howItWork_topBlock {
+    width: 1190px;
+    height: 90px;
+    background-color: #d8d8d8;
+    text-align: left;
+    display: inline-block;
+    float: right;
+}
+
+.howItWork_topBlock__text {
+    font: 18px "ProximaNova", sans-serif;
+    color: #303030;
+    line-height: 22px;
+    margin: 0;
+    padding: 30px 0 0 40px;
+}
+
+.howItWork_leftBlock {
+    display: inline-block;
+    width: 90px;
+    height: 770px;
+    background-color: #303030;
+    float: left;
+}
+
+.leftBlock_logo {
+    margin: 30px 0 20px 0;
+}
+
+.leftBlock_iconTop {
+    width: 22px;
+    height: 22px;
+    margin: 40px auto 0 auto;
+    background-color: #fff;
+}
+
+.leftBlock_userIcon {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    margin: 320px auto 0 auto;
+}
+
+.leftBlock_icon__text {
+    color: #acacac;
+    font: 12px "ProximaNova", sans-serif;
+    font-weight: 400;
+    line-height: 11px;
+    margin-top: 8px;
+}
+
+.leftBlock_iconBottom {
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 15px 8px 0 8px;
+}
+
+.howItWork_mainBlock {
+    display: inline-block;
+    width: 1185px;
+    height: 680px;
+    float: left;
+}
+
+.howItWork_newCompany {
+    display: inline-block;
+    width: 270px;
+    height: 670px;
+    background-color: #f4f4f4;
+    float: left;
+}
+
+.howItWork_newCompany__head {
+    font: 25px "ProximaNova", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    color: #000;
+    margin-top: 35px;
+}
+
+.howItWork_newCompany__list {
+    text-align: left;
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 45px 0 0 30px;
+    color: black;
+    font: 15px "ProximaNova", sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.howItWork_newCompany__list li {
+    margin-top: 25px;
+}
+
+.howItWork_newCompany__list li:before {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: -30px;
+    background: url("list_marker.png") 0 0 no-repeat;
+    content: '';
+}
+
+.howItWork_newCompany__list li:hover {
+    opacity: 0.18;
+    cursor: pointer;
+}
+
+.howItWork_where {
+    display: inline-block;
+    width: 400px;
+    height: 670px;
+    float: left;
+}
+
+.howItWork_where p {
+    color: black;
+    margin-top: 40px;
+    font: 20px "ProximaNova", sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.howItWork_where input {
+    display: inline-block;
+    width: 165px;
+    height: 60px;
+    border: 1px solid #979797;
+    font-size: 16px;
+}
+
+.howItWork_mainText {
+    display: inline-block;
+    width: 370px;
+    height: 670px;
+    text-align: left;
+    float: left;
+}
+
+.howItWork_mainText__head {
+    font: 30px "ProximaNova", sans-serif;
+    color: black;
+    font-weight: 300;
+    line-height: 37px;
+    margin: 60px auto;
+}
+
+.howItWork_mainText__list {
+    list-style-position: inside;
+    padding: 0;
+}
+
+.howItWork_mainText__list li span {
+    color: #060505;
+    font-weight: 800;
+    line-height: 20px;
+}
+
+.howItWork_mainText__list li {
+    margin-top: 60px;
+    font: 16px "ProximaNova", sans-serif;
+    color: black;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+/*gardients*/
+.howItWork_gradient1 {
+    position: absolute;
+    left: 90px;
+    width: 670px;
+    height: 770px;
+    background-image: linear-gradient(to right, transparent -30%, white 100%);
+}
+
+.howItWork_gradient2 {
+    position: absolute;
+    right: 0;
+    width: 520px;
+    height: 90px;
+    background-color: #fff;
+}
+
+.howItWork_gradient3 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 520px;
+    height: 318px;
+    background-image: linear-gradient(360deg, white 20%, transparent 210%);
+}
+
+.slideFour_header img {
+    margin-top: 60px;
+}
+
+.slideFour_head {
+    font: 45px "ProximaNova", sans-serif;
+    color: black;
+    font-weight: 300;
+    line-height: 54px;
+    margin: 45px auto 0 auto;
+}
+
+.slideFour_text {
+    font: 35px "ProximaNova", sans-serif;
+    color: #555;
+    font-weight: 400;
+    line-height: 42px;
+    margin: 15px auto 0 auto;
+}
+
+.slideFour_slider img {
+    margin-top: 65px;
+}
+
+/*gradient*/
+.slideFour_gradient {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 530px;
+    margin-left: -265px;
+    height: 420px;
+    background-image: linear-gradient(180deg, white 10%, transparent 65%);
+}
+
+.usersSlider {
+    background-color: #e8e8e8;
+}
+
+.connectToPF {
+    background-color: #dcdcdc;
+}
+
+.connectToPF_logo {
+    margin-top: 60px;
+}
+
+.connectToPF_header {
+    font: 45px "ProximaNova", sans-serif;
+    color: black;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 160px 0 0 0;
+}
+
+.connectToPF_button {
+    display: inline-block;
+    font: 16px "ProximaNova", sans-serif;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    padding: 35px 80px;
+    border: 3px solid #f54e2f;
+    margin-top: 60px;
+}
+
+.connectToPF_button:hover,
+.enter_button:hover {
+    color: #fff;
+    background-color: #f54e2f;
+    transition: color 0.3s linear 0s, background-color 0.3s linear 0s;
+}
+
+.connectToPF_conector {
+    margin-top: 195px;
+}
+
+.connectToPF_leader {
+    text-transform: uppercase;
+    font: 12px "ProximaNova", sans-serif;
+    letter-spacing: 1px;
+    color: #888;
+    font-weight: 800;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+.connectToPF_conector a {
+    text-decoration: none;
+    font: 16px "ProximaNova", sans-serif;
+    color: black;
+    font-weight: 400;
+    line-height: 20px;
+    border-bottom: 1px solid #888;
+}
+
+.connectToPF_conector a:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    width: 1280px;
+    height: 245px;
+    background-color: #fefac0;
+}
+
+.footer_leftBlock {
+    float: left;
+    text-align: left;
+    margin-left: 130px;
+}
+
+.footer_logo {
+    margin-top: 40px;
+}
+
+.footer_leftBlock ul {
+    padding-right: 125px;
+}
+
+.footer_nav {
+    display: inline-block;
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0;
+    margin: 25px 0 0 0;
+}
+
+.footer_nav li {
+    margin-top: 15px;
+}
+
+.footer_nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 13px "ProximaNova", sans-serif;
+    color: #464646;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.footer_nav a:hover {
+    opacity: 0.8;
+}
+
+.footer_copyright {
+    margin-top: 40px;
+    color: #8a8580;
+    font: 16px "ProximaNova", sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.footer_rightBlock {
+    float: left;
+    margin-top: 70px;
+}
+
+.footer_joinBox__header {
+    float: left;
+    width: 295px;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+}
+
+.footer_joinBox__header p,
+.enter_brand p {
+    margin-top: 17px;
+}
+
+.enter_influencer p {
+    margin-top: 10px;
+}
+
+.footer_controls {
+    width: 420px;
+    text-align: left;
+    position: relative;
+    font: 800 12px "ProximaNova", sans-serif;
+    color: #f54e2f;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.footer_joinBox,
+.footer_buttonLogIn,
+.enter_influencer,
+.enter_brand {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.footer_joinBox {
+    width: 295px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.15s linear 0s;
+}
+
+.footer_joinBox:hover {
+    opacity: 1;
+}
+
+.footer_joinBox a {
+    text-decoration: none;
+    color: #f54e2f;
+}
+
+.enter_button {
+    width: 50%;
+    position: relative;
+    float: left;
+    height: 50px;
+    text-align: center;
+}
+
+.footer_buttonLogIn {
+    vertical-align: top;
+    margin: 17px 0 0 0;
+    float: right;
+}
+
+.button_LogIn__down {
+    color: #464646;
+    font-weight: 400;
+    line-height: 16px;
+    font: 13px "ProximaNova", sans-serif;
+    padding: 14px 30px;
+    border: 3px solid black;
+    text-decoration: none;
+    outline: none;
+}
+
+.button_LogIn__down:hover {
+    opacity: 0.8;
+}
+
+.footer_socials {
+    margin-top: 45px;
+}
+
+.footer_socials a {
+    margin-right: 35px;
+}
+
+
