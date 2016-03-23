@@ -18,26 +18,81 @@ ul li {
 a {
     text-decoration: none;
 }
-p {
+ /*p {
     font-size: 13px;
     line-height: 1.3em;
-}
+}*/
+
 /* HEADER */
-.header {
+.company-contacts {
     padding: 10px 0;
-    background-color: #a3df3c;
-    font-family: Georgia;
+    background-color: #272727;
 }
 
-.header h1,
-.header h2 {
-    color: greenyellow;
+.company-contacts h1 {
+    color: #DFDFDF;
     text-align: center;
     white-space: nowrap;
 }
 
+.company-cell {
+    text-align: left;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.company-cell li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 13px;
+}
+.company-cell a {
+    color: #DFDFDF;
+}
+
+.company-cell-email:before {
+    content: url("flaticons/mail.svg");
+    position: relative;
+    top: 4px;
+    right: 10px;
+}
+
+.company-cell-address:before {
+    content: url("flaticons/location.svg");
+    position: relative;
+    top: 4px;
+    right: 10px;
+}
+
+.company-cell-phone:before {
+    content: url("flaticons/phone.svg");
+    position: relative;
+    top: 4px;
+    right: 10px;
+}
+
+.company-social {
+    display: inline-block;
+    float: right;
+}
+
+.company-social li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.social-fb:before {
+    content: url("flaticons/facebook.svg");
+    position: relative;
+}
+
+.social-skype:before {
+    content: url("flaticons/skype.svg");
+    position: relative;
+}
+
 /* NAVIGATION */
-.page-navigation {
+.header {
     background-color: #eb630d;
     border-color: #9d9d9d;
     min-height: 64px;
@@ -47,16 +102,16 @@ p {
     float: left;
 }
 
-.page-navigation ul {
+.header ul {
     float: right;
     display: inline-block;
 }
 
-.page-navigation li {
+.header li {
     display: inline-block;
 }
 
-.page-navigation li a {
+.header li a {
     display: block;
     padding: 0 20px;
     color: #e1e1e1;
@@ -65,7 +120,7 @@ p {
     text-align: center;
 }
 
-.page-navigation li a:hover {
+.header li a:hover {
     color: #eb630d;
     background-color: #e1e1e1;
 }
@@ -99,13 +154,57 @@ p {
 }
 
 /* MAIN */
+.company-info {
+    margin-top: 50px;
+    color: #9d9d9d;
+    background-image: url("flaticons/pattern-bg.png");
+}
+
+.company-info h2 {
+    color: #787878;;
+}
+
+.company-info h6 {
+    color: #828282;
+}
 
 .slaider {
     width: 960px;
     height: 628px;
-    background-image: url(main_bg.png);
+    background-image: url(flaticons/main_bg.png);
+}
+
+.menu-item {
+    font-size: 18px;
+    padding: 15px 0;
+    border-bottom: 2px solid #9a9a9a;
 }
 
 .about-us {
-    background-color: #c4e1ff;
+}
+
+.for-clients {
+
+}
+
+
+
+.footer {
+    background-color: #fffdc1;
+    color: #e1e1e1;
+    text-align: center;
+    font: 16px "Trebuchet MS";
+}
+
+.footer p {
+    margin: 0;
+    padding: 15px 0;
+}
+
+.footer_text_bold {
+    font-weight: bold;
+}
+
+.footer_text_black {
+    color: #ececec;
 }
