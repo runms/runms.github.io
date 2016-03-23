@@ -5,6 +5,7 @@
     <title>ІКСА</title>
     <link rel="stylesheet" href="Iksa_styles.css"/>
     <link rel="stylesheet" href="normalize.css"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
 </head>
 <body>
 
@@ -42,12 +43,9 @@
                     </a>
                 </li>
             </ul>
-
         </div>
-
     </div>
 </div>
-
 
 
 <header class="header">
@@ -228,16 +226,36 @@
 
 <!--MAIN-->
 
+<div class="scroll_top">
+
+</div>
+
 <!--FOOTER-->
 
 <footer class="footer">
     <p>
-        Copyright &#169; <span class="footer_text_bold">Graphite production.</span> All rights reserved. <br/> Designed by
+        Copyright &#169; <span class="footer_text_bold">Graphite production.</span> All rights reserved. <br/> Designed
+        by
         <span class="footer_text_bold footer_text_black">Misha Svyrydiuk</span>
     </p>
 </footer>
 
 <!--FOOTER-->
+
+<!-- SCRIPTS-->
+<script>
+    /* function () {
+        jQuery('html, body').animate({
+            scrollTop: 0
+        }, 500, 'easeOutCubic');
+        return false;
+    }*/
+
+    $(".scroll_top").on("click", function () {
+        $('html,body').animate({scrollTop: 0}, 1200, 'swing')
+    });
+</script>
+<!-- SCRIPTS-->
 
 </body>
 </html>
